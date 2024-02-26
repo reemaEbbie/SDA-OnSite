@@ -74,7 +74,6 @@ public class C03Locators {
     }
     @AfterClass
     public static void tearDown(){
-        // driver.close();
+        driver.close();
     }
 }
-// /html/body/div[1]/header/div/div[1]/div[2]/div/form/div[2]/div[1]/input

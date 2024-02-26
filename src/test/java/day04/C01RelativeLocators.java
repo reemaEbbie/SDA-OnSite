@@ -12,9 +12,10 @@ public class C01RelativeLocators {
     public void test(){
         WebDriver driver = new ChromeDriver();
         driver.manage().window().maximize();
+
         driver.get("https://www.linkedin.com/");
-
-        By emailfield = RelativeLocator.with(By.tagName())
-
+        By emailField =RelativeLocator.with(By.tagName("input")).above(By.id("session_password"));
+        driver.findElement(emailField).sendKeys("I did it :)");
     }
+
 }
