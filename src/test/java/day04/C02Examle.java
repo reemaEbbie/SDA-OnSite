@@ -8,7 +8,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 
 import java.time.Duration;
 
-public class C02Example {
+public class C02Examle {
     /*
     http://the-internet.herokuapp.com/add_remove_elements/
     Click on the "Add Element" button 100 times.
@@ -31,16 +31,10 @@ public class C02Example {
 
     public void createButtons(int numberOfButtons){
 
-
-
         WebElement button =driver.findElement(By.xpath("//*[.='Add Element']"));
 
-        for (int i=0;             i<numberOfButtons;                        i++){
-
-
+        for (int i=0;i<numberOfButtons;i++){
             button.click();
-
-
 
         }
 

@@ -34,6 +34,7 @@ Do the following tasks by creating 3 different test methods.
     }
     @AfterClass
     public static void tearDown(){
+
         driver.quit();
     }
     //1- Test if the URL contains google.

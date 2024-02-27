@@ -74,6 +74,7 @@ public class C03Locators {
     }
     @AfterClass
     public static void tearDown(){
+
         driver.close();
     }
 }

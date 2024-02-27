@@ -39,7 +39,7 @@ public class C01AssertionMethods {
         // int d =null; int does not accept null values
         String b = "";
         Assert.assertNull("Fail", a);
-        // Assert.assertNull("Fail", b);
+       //  Assert.assertNull("Fail", b);
     }
 
     @Test
