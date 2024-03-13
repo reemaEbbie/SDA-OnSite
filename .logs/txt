@@ -1,0 +1,12 @@
+2024-03-11 13:13:35 TRACE C03Log4j_UseProperties:13 - This is a trace message
+2024-03-11 13:13:35 DEBUG C03Log4j_UseProperties:14 - This is a debug message
+2024-03-11 13:13:35 INFO  C03Log4j_UseProperties:15 - This is an info message
+2024-03-11 13:13:35 WARN  C03Log4j_UseProperties:16 - This is a warn message
+2024-03-11 13:13:35 ERROR C03Log4j_UseProperties:17 - This is an error message
+2024-03-11 13:13:35 FATAL C03Log4j_UseProperties:18 - This is a fatal message
+2024-03-11 13:34:12 TRACE C03Log4j_UseProperties:13 - This is a trace message
+2024-03-11 13:34:12 DEBUG C03Log4j_UseProperties:14 - This is a debug message
+2024-03-11 13:34:12 INFO  C03Log4j_UseProperties:15 - This is an info message
+2024-03-11 13:34:12 WARN  C03Log4j_UseProperties:16 - This is a warn message
+2024-03-11 13:34:12 ERROR C03Log4j_UseProperties:17 - This is an error message
+2024-03-11 13:34:12 FATAL C03Log4j_UseProperties:18 - This is a fatal message
